@@ -8,12 +8,12 @@ while(working):
   #Ping, traces and tries to find dns host 
   print('Pinging...')
   os.system(f'ping {ip}')
-  print('\nPing complete. Tracing...')
+  print('Ping complete. Tracing...')
   os.system(f'tracert {ip}')
-  print('\nTrace complete. Trying to find dns host...')
+  print('Trace complete. Trying to find dns host...')
   os.system(f'nslookup {ip}')
-  print('\nDNS Trace complete.')
-  print('\nPress n to troubleshoot another IP. Type anything else to quit.')
+  print('DNS Trace complete.')
+  print('Press n to troubleshoot another IP. Type anything else to quit.')
   choice = input()
   if choice == 'n' or choice == 'N':
     working = True
