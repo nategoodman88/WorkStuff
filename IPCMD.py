@@ -3,7 +3,7 @@ import os
 #Ask IP that is troubleshooting
 working = True
 while(working):
-  print('Enter the IP you want to ping and trace.')
+  print('Enter the IP you want to troubleshoot.')
   ip = input()
   #Ping, traces and tries to find dns host 
   print('Pinging...')
