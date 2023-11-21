@@ -1,6 +1,6 @@
 #Allows use of Windows commands
 import os 
-#Ask IP that is troubleshooting
+#Ask IP that is troubleshooting, wrap in while loop to allow continuous use
 working = True
 while(working):
   print('Enter the IP you want to troubleshoot.')
