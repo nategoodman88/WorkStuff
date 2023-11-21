@@ -5,7 +5,7 @@ working = True
 while(working):
   print('Enter the IP you want to ping and trace.')
   ip = input()
-  #Ping, traces and ties to find dns host 
+  #Ping, traces and tries to find dns host 
   print('Pinging...')
   os.system(f'ping {ip}')
   print('\nPing complete. Tracing...')
